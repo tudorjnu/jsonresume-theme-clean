@@ -1,10 +1,20 @@
 .interests {
+  .interest {
+    display: grid;
+    grid-template-columns: 100px minmax(110px, max-content) 1fr; // First column fixed, second auto-sizing, third fills remaining space
+    grid-template-rows: auto;
+    grid-template-areas: "empty name keywords";
+    gap: 20px 20px;
 
-  ul {
-    list-style: none;
+    .name {
+      font-weight: bold;
+      margin-right: $space-1;
+      grid-area: name;
+    }
 
-    li {
-      font-size: $font-size-xsmall;
+    .keywords {
+      flex-grow: 1;
+      grid-area: keywords;
     }
   }
 }

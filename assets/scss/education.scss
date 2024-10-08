@@ -1,13 +1,36 @@
 @use "sass:color";
 
-.education {
+.education-entry {
+  display: grid;
+  grid-template-columns: 100px 1fr auto;
+  grid-template-areas:
+    "dates title institution"
+    "dates courses courses"
+    "dates highlights highlights";
+
+  font-size: $font-size-base;
+
+  .dates {
+    text-align: left;
+    grid-area: dates;
+  }
+
+  .highlights {
+    grid-area: highlights;
+  }
+
+  .courses {
+    grid-area: courses;
+  }
 
   .title {
-    font-size: $font-size-small;
+    grid-area: title;
+    display: flex;
+    flex-direction: column;
   }
 
   .institution {
-    font-size: $font-size-small;
+    grid-area: institution;
     font-weight: lighter;
   }
 }

@@ -1,290 +1,249 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
   "basics": {
-    "name": "Richard Hendrik",
-    "label": "Software Developer",
-    "email": "rhendriks@mail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://www.richardh.example.com",
-    "summary": "Richard hails from [tulsa](https://en.wikipedia.org/wiki/Tulsa,_Oklahoma). Holds a bachelor's degree from the *University of Oklahoma* and a master's degree from *Stanford University*. (Go Sooners) Before starting **Pied Piper**, he worked for **Hooli** as a part time software developer. While his work focuses on *applied information theory*, mostly *optimizing lossless compression* schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from *quantum computing* to *chaos theory*. He could tell you about it, but THAT would NOT be a *length-limited* conversation!",
+    "name": "Tudor Jianu",
+    "label": "PhD Student of Artificial Intelligence in Medical Robotics",
+    "phone": "012-345-6789",
+    "email": "tudorjnu@gmail.com",
+    "website": "https://tudorjnu.github.io",
+    "summary": "Tudor Jianu completed an MSc in Data Science and Artificial Intelligence at the University of Liverpool and is currently working towards a PhD in Artificial Intelligence focused on medical robotics. Specializes in research areas that include autonomous navigation in endovascular procedures. Beyond the academic sphere, shows a strong inclination for creating clean software solutions. Thrives in fast-paced, innovative environments committed to pushing the boundaries of medical technology.",
     "location": {
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Liverpool",
+      "countryCode": "UK",
+      "region": "Merseyside"
     },
     "profiles": [
       {
-        "url": "https://gitplace.com/rhendricks"
+        "network": "LinkedIn",
+        "username": "tudorjnu",
+        "url": "https://www.linkedin.com/in/tudorjnu/"
       },
       {
-        "url": "https://linkedon.com/richardh"
+        "network": "Github",
+        "username": "tudorjnu",
+        "url": "https://github.com/tudorjnu/"
       }
     ]
   },
   "work": [
     {
-      "name": "Facebook",
-      "location": "California, United States",
-      "position": "Principal Software Engineer",
-      "url": "https://www.facebook.com/",
-      "startDate": "2016-11-17",
-      "summary": "*Facebook* is an American social media conglomerate corporation based in *Menlo Park, California*. It was founded by **Mark Zuckerberg**, along with his fellow roommates and students at Harvard College, who were Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes, originally as TheFacebook.com—today's Facebook, a popular global social networking website.",
+      "company": "University of Liverpool",
+      "position": "PhD Researcher",
+      "startDate": "2021-10-01",
+      "endDate": "",
+      "summary": "Pursuing a Ph.D. in autonomous endovascular navigation, Tudor excels in integrating deep learning, software development, and data science. Engineered an endovascular simulator using Python and MuJoCo, demonstrating expertise in areas like reinforcement learning and neural networks. Notable for problem-solving and team collaboration skills, which extend to mentoring and conducting AI workshops.",
       "highlights": [
-        "Vitae purus faucibus ornare suspendisse",
-        "Ut enim blandit volutpat maecenas",
-        "Volutpat blandit aliquam",
-        "Ultrices gravida dictum fusce ut placerat",
-        "Elit duis tristique sollicitudin nibh",
-        "Habitant morbi tristique senectus et netus",
-        "Luctus accumsan tortor posuere ac ut consequat"
+        "Developed an endovascular simulator, CathSim, using Python",
+        "Deployed scripts on HPC's (Barkla)",
+        "Researched and applied state-of-the-art neural network architectures",
+        "Created an autonomous agent capable of performing endovascular navigation tasks",
+        "Presented at the Hamlyn Symposium of Medical Robotics",
+        "Supervised and guided trainee researchers, providing essential technical advice to foster academic development",
+        "Developed demonstrations for SmartLab using industrial manipulators (UR5) and instance segmentation networks (Mask-RCNN)"
       ]
     },
     {
-      "name": "Amazon",
-      "location": "Washington, United States",
-      "position": "Senior Software Engineer",
-      "url": "https://www.amazon.com/",
-      "startDate": "2013-07-23",
-      "endDate": "2016-11-16",
-      "summary": "*Amazon.com* is an American multinational technology company based in *Seattle, Washington*, which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. The company has been referred to as *one of the most influential economic and cultural forces in the world*, as well as the world's most valuable brand.",
+      "company": "University of Liverpool CS Outreach",
+      "position": "Team Member",
+      "website": "https://outreach.csc.liv.ac.uk",
+      "startDate": "2021-10-01",
+      "endDate": "",
+      "summary": "The Department of Computer Science at the University of Liverpool actively engages in educational outreach programs to promote computer science. In collaboration with the Electrical Engineering and Electronics department, a range of events and resources are offered to schools and the general public.",
       "highlights": [
-        "Massa id neque aliquam vestibulum morbi",
-        "Consectetur adipiscing elit",
-        "Sed do eiusmod tempor incididunt ut labore",
-        "Mattis vulputate enim nulla aliquet porttitor",
-        "incididunt ut labore et dolore magna aliqua",
-        "Lacus luctus accumsan tortor"
-      ]
-    },
-    {
-      "name": "Netflix",
-      "location": "California, United States",
-      "position": "Junior Software Engineer",
-      "url": "https://www.netflix.com/",
-      "startDate": "2010-02-14",
-      "endDate": "2013-07-22",
-      "summary": "*Netflix* is an American over-the-top content platform and production company headquartered in *Los Gatos, California*. Netflix was founded in 1997 by **Reed Hastings** and **Marc Randolph** in *Scotts Valley, California*. The company's primary business is a subscription-based streaming service offering online streaming from a library of films and television series, including those produced in-house.",
-      "highlights": [
-        "Posuere sollicitudin aliquam ultrices",
-        "Porttitor rhoncus dolor purus",
-        "Aliquam sem et tortor consequat",
-        "Pellentesque dignissim enim sit",
-        "Hendrerit dolor magna eget est"
-      ]
-    },
-    {
-      "name": "Google",
-      "location": "California, United States",
-      "position": "Software Engineer Intern",
-      "url": "https://www.google.com/",
-      "startDate": "2009-09-13",
-      "endDate": "2010-02-13",
-      "summary": "*Google* is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware. It is considered one of the Big Five technology companies in the U.S. information technology industry, alongside Amazon, Facebook, Apple, and Microsoft.",
-      "highlights": [
-        "Ut pharetra sit amet aliquam id diam",
-        "Vitae congue eu consequat ac",
-        "Cursus sit amet dictum sit amet"
+        "Delivered an Introduction to Programming Workshop at Liverpool World Museum using Pi2Go robots",
+        "Participated in continuous improvement by generating suggestions, engaging in problem-solving activities to support teamwork.",
+        "Generated ideas while working in a small team to produce activities for a series of fun and engaging events to market the university",
+        "Developed an Introduction to Machine Learning activity as part of Computer Science Summer School activities.",
+        "Created Machine Learning activities by modifying TypeScript and HTML code",
+        "Created various educational activities for the Computer Science Department"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Animal Refuge",
-      "position": "Supervisor",
-      "url": "https://example.com/",
-      "startDate": "2012-10-11",
-      "endDate": "2014-12-24",
-      "summary": "Nulla sit amet velit ac turpis interdum consectetur eget vitae ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam pharetra diam et tortor bibendum laoreet.",
+      "organization": "University of Liverpool",
+      "position": "President of Data Science and Artificial Intelligence (DSAI) Society",
+      "startDate": "2020-09-01",
+      "endDate": "2021-09-01",
+      "summary": "Established the society",
       "highlights": [
-        "Maecenas at dictum sem",
-        "Ut ac ex ac ipsum commodo",
-        "Pellentesque vitae sed dolor",
-        "Aliquam ut lectus ac lacus ultrices"
+        "Organized Data Science networking and training events;",
+        "Set aims and objectives in order to improve the society while securing the commitment of others;",
+        "Built the committee for the society, advertised roles and advocated conflicts"
       ]
     },
     {
-      "organization": "Red cross",
-      "position": "Math professor",
-      "url": "https://example.com/",
-      "startDate": "2011-01-16",
-      "endDate": "2012-10-10",
-      "summary": "Proin id justo pulvinar, imperdiet eros ac, iaculis nunc. Donec dignissim leo volutpat, cursus arcu vel, dapibus risus. Nam ut volutpat est. In fringilla commodo pretium. Vestibulum efficitur pellentesque ex. Nulla dictum, mauris sit amet mattis pharetra, purus ipsum commodo ex, a molestie metus augue sit amet justo."
+      "organization": "University of Liverpool",
+      "position": "Course Representative",
+      "startDate": "2020-09-01",
+      "endDate": "2021-09-01",
+      "summary": "Representative of Data Science and Artificial Intelligence MSc students",
+      "highlights": [
+        "Gathered information from the students by asking open questions to better understand the views in order to improve the course",
+        "Participated in meetings throughout the year, supported the opinions of the students and raised and complains to the department as well as offered tentative solutions to the issues."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Stanford",
-      "url": "https://www.stanford.edu/",
+      "institution": "University of Liverpool",
       "area": "Computer Science",
-      "studyType": "Master"
+      "studyType": "PhD",
+      "startDate": "2021-10-01",
+      "highlights": [
+        "Distinguished expertise in deep learning methodologies, including convolutional neural networks, multi-layer perceptrons, and transformers.",
+        "Contributed to the development of a sim-to-xray image mapping network.",
+        "Actively participated in mentoring and supervising master's students during their thesis work.",
+        "Conducted workshops on AI and Deep Learning as part of the outreach group.",
+        "Presented work at the esteemed Hamlyn Symposium within the Recent Advances in Autonomous Surgery workshop."
+      ]
     },
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Website of the day",
-      "awarder": "Awwward",
-      "summary": "Received for my website [domain.com](domain.com)"
+      "institution": "University of Liverpool",
+      "area": "Computer Science",
+      "studyType": "Masters of Science",
+      "startDate": "2020-09-01",
+      "endDate": "2021-09-01",
+      "gpa": "4.0",
+      "courses": [
+        "COMP516 - Research Methods in Computer Science",
+        "COMP517 - Programming Fundamentals",
+        "COMP518 - Database and Information Systems",
+        "COMP533 - Maths and Statistics for AI and Data Science",
+        "COMP527 - Data Mining and Visualisation",
+        "COMP532 - Machine Learning and BioInspired Optimisation",
+        "COMP534 - Applied Artificial Intelligence",
+        "COMP575 - Computational Intelligence",
+        "COMP702 - MSc Project"
+      ]
     },
     {
-      "title": "Java Champion",
-      "awarder": "Oracle",
-      "summary": "Obtained thanks to my contributions \n\n to the Java community."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "AWS Certified Solutions\n\nArchitect - Professional",
-      "issuer": "Amazon Web Services",
-      "url": "https://www.your-badge.com"
-    },
-    {
-      "name": "Oracle Certified Professional\n\nJava SE 17 Developer",
-      "issuer": "Oracle",
-      "url": "https://www.your-badge.com"
-    },
-    {
-      "name": "CCNA Routing and Switching",
-      "issuer": "Cisco",
-      "url": "https://www.your-badge.com"
+      "institution": "Coventry University",
+      "area": "Business Administration",
+      "studyType": "Bachelours of Arts",
+      "startDate": "2017-09-01",
+      "endDate": "2021-08-01",
+      "gpa": "4.0",
+      "courses": [
+        "A106MC - Design Your Own Project",
+        "110SAM - Internal Business Relations",
+        "148HRM - Managing People",
+        "105MKT - Marketing Essentials",
+        "108SAM - Quantitative Methods for Business",
+        "117ECN - The Economic Environment of Business",
+        "120SAM - Continuing Professional Development 1",
+        "2000ACC - Principles of Business Accounting",
+        "240SAM - Supply Chain and Operations Management",
+        "A203IAE - Making Money On-Line",
+        "211MKT - Buyer Behaviour",
+        "220SAM - Continuing Professional Development 2",
+        "247SAM - Exploring Business Strategy",
+        "251FIN - Introduction to Financial Services",
+        "344SAM - Project Management",
+        "361SAM - Contemporary Business Strategy",
+        "A320DEL - Absolute Beginners' German 3",
+        "320SSL - Continuing Professional Development 3",
+        "348SAM - Managing Change",
+        "352SAM - Business Dissertation",
+        "353FIN - International Finance"
+      ]
     }
   ],
   "publications": [
     {
-      "name": "Chasing the Higgs Boson",
-      "publisher": "The New York Times",
-      "releaseDate": "2013-03-04",
-      "url": "https://www.nytimes.com/",
-      "summary": "Integer luctus erat at sapien pharetra, nec elementum diam euismod. Maecenas condimentum eu nisi ut aliquet. Donec vitae ultricies risus. Donec commodo justo at odio cursus, nec mattis tellus dignissim."
+      "name": "Autonomous Catheterization with Open-source Simulator and Expert Trajectory",
+      "publisher": "arXiv preprint arXiv:2401.09059",
+      "website": "https://arxiv.org/abs/2401.09059",
+      "releaseDate": "2024-01-01",
+      "summary": "Developed and introduced CathSim, the first open-source simulator for endovascular intervention, addressing limitations in autonomous catheterization research. Validated the simulator against real robotic systems and demonstrated its effectiveness in training machine learning algorithms for endovascular navigation tasks. The work accelerates research in autonomous catheterization by providing a cost-effective and accessible tool for real-time performance testing and algorithm development."
     },
     {
-      "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
-      "publisher": "Pearson",
-      "releaseDate": "2008-08-01",
-      "summary": "Morbi lobortis sodales nisi, et vulputate diam posuere vitae. Phasellus sollicitudin vehicula justo vel tincidunt. Donec faucibus magna ut sollicitudin tincidunt. Etiam sodales neque eu mollis egestas. Nam nisl nulla, iaculis sit amet condimentum quis, iaculis ut ex. Donec gravida efficitur ligula, ac auctor magna efficitur vel."
+      "name": "3D Guidewire Shape Reconstruction from Monoplane Fluoroscopic Images",
+      "publisher": "arXiv preprint arXiv:2311.11209",
+      "website": "https://arxiv.org/abs/2311.11209",
+      "releaseDate": "2023-11-13",
+      "summary": "We propose a novel method to reconstruct 3D shapes from monoplane fluoroscopic images, achieving state-of-the-art results on the 3D Guidewire dataset."
+    },
+    {
+      "name": "Cathsim: An open-source simulator for autonomous cannulation",
+      "publisher": "arXiv preprint arXiv:2208.01455",
+      "releaseDate": "2022-08-02",
+      "website": "https://arxiv.org/abs/2208.01455",
+      "summary": "An open-source simulator has been introduced to advance machine learning for autonomous endovascular navigation, offering high-fidelity catheter and aorta simulation with real-time force feedback."
+    },
+    {
+      "name": "Translating Simulation Images to X-ray Images via Multi-Scale Semantic Matching",
+      "publisher": "arXiv preprint arXiv:2304.07693",
+      "releaseDate": "2023-04-16",
+      "website": "https://arxiv.org/abs/2304.07693",
+      "summary": "A new method is proposed to convert endovascular simulator images to X-ray-like images, emphasizing structural integrity through multi-scale semantic matching, outperforming existing techniques and accompanied by a new benchmark dataset and open-source code."
+    },
+    {
+      "name": "Unsupervised Adversarial Domain Adaptation for Sim-to-Real Transfer of Tactile Images",
+      "publisher": "IEEE Transactions on Instrumentation and Measurement",
+      "releaseDate": "2023-04-20",
+      "website": "https://ieeexplore.ieee.org/abstract/document/10106009",
+      "summary": "ACTNet, an unsupervised adversarial network, is proposed for tactile image transfer, using correlative attention and task-related constraints to enhance sim-to-real transfer, achieving 92.85% accuracy in real-world classification without real labels."
+    },
+    {
+      "name": "Reducing tactile sim2real domain gaps via deep texture generation networks",
+      "publisher": "International Conference on Robotics and Automation (ICRA)",
+      "releaseDate": "2022-05-23",
+      "website": "https://ieeexplore.ieee.org/abstract/document/9811801",
+      "summary": "Engineered a neural network that synthesizes realistic textures on simulated tactile images, targeting only contact areas to enhance realism and reduce the Sim2Real accuracy gap in robotic sensing tasks."
     }
   ],
   "skills": [
     {
-      "name": "Languages",
+      "name": "Technical Skills",
       "keywords": [
-        "Java",
-        "Python",
-        "Javascript",
-        "Rust",
-        "Golang"
+        "Machine Learning",
+        "Algorithms",
+        "Data Mining",
+        "Data Visualization",
+        "Artificial Intelligence",
+        "Database Systems"
       ]
     },
     {
-      "name": "Frameworks",
+      "name": "Soft Skills",
       "keywords": [
-        "Spring",
-        "Django",
-        "Express"
+        "Planning",
+        "Problem-Soving",
+        "Collaboration",
+        "Communication",
+        "Active Learning",
+        "Innovation",
+        "Mentoring",
+        "Leadership",
+        "Responsibility"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "Ruby",
+        "SML",
+        "Bash",
+        "HTML",
+        "CSS",
+        "SQL",
+        "JavaScript"
       ]
     },
     {
       "name": "Tools",
-      "keywords": [
-        "VS Code",
-        "Intellij IDEA"
-      ]
-    },
-    {
-      "name": "Technologies",
-      "keywords": [
-        "Docker",
-        "AWS"
-      ]
-    },
-    {
-      "name": "Other",
-      "keywords": [
-        "Open source",
-        "XP"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native"
-    },
-    {
-      "language": "Russian",
-      "fluency": "Professional"
+      "keywords": ["VIM", "Docker", "Linux", "Git", "Jupyter Notebooks"]
     }
   ],
   "interests": [
     {
-      "name": "Pixelart"
+      "name": "Sports",
+      "keywords": ["Bouldering", "Gymnastic Rings", "Hiking"]
     },
     {
-      "name": "Open Source"
-    },
-    {
-      "name": "Gardening"
-    },
-    {
-      "name": "Writing"
+      "name": "Technology",
+      "keywords": ["Artificial Intelligence", "Blockchain", "Cybersecurity"]
     }
-  ],
-  "references": [
-    {
-      "name": "Robert C. Martin",
-      "reference": "Suspendisse a tristique massa. Curabitur sollicitudin volutpat urna, sed pretium justo tincidunt non."
-    },
-    {
-      "name": "Martin Fowler",
-      "reference": "Integer luctus erat at sapien pharetra, nec elementum diam euismod. Maecenas condimentum eu nisi ut aliquet. Donec vitae ultricies risus. Donec commodo justo at odio cursus, nec mattis tellus dignissim."
-    },
-    {
-      "name": "Elon Musk",
-      "reference": "Sed pretium urna orci, at mollis ante fermentum at. Donec sagittis risus hendrerit venenatis consequat."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Deno",
-      "description": "*Deno* is a runtime for JavaScript and TypeScript that is based on the V8 JavaScript engine and the Rust programming language. It was created by **Ryan Dahl**, original creator of Node.js, and is focused on productivity. It was announced by Dahl in 2018 during his talk \"*10 Things I Regret About Node.js*\".",
-      "highlights": [
-        "Vitae tempus quam pellentesque",
-        "Dui accumsan sit amet nulla",
-        "Ultrices vitae auctor eu augue",
-        "Scelerisque felis imperdiet",
-        "Pellentesque dignissim enim sit"
-      ],
-      "startDate": "2018-05-13",
-      "url": "https://deno.land/",
-      "roles": [
-        "creator"
-      ]
-    },
-    {
-      "name": "Node.js",
-      "description": "*Node.js* is an open-source, cross-platform, back-end JavaScript runtime environment that executes JavaScript code outside a web browser.",
-      "highlights": [
-        "Commodo elit at imperdiet dui",
-        "Id volutpat lacus laoreet non",
-        "Accumsan lacus vel facilisis"
-      ],
-      "startDate": "2011-08-26",
-      "endDate": "2018-05-12",
-      "url": "https://nodejs.org/",
-      "roles": [
-        "contributor",
-        "evangelist"
-      ]
-    }
-  ],
-  "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
-  }
+  ]
 }

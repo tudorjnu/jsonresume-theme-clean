@@ -1,5 +1,9 @@
 @use "sass:color";
 
+html {
+  font-size: $base-font-size;
+}
+
 a {
   color: $text-color;
   font-weight: inherit;
@@ -11,7 +15,8 @@ a {
   }
 }
 
-p, q {
+p,
+q {
   line-height: $line-height-1;
 }
 
@@ -28,38 +33,47 @@ li {
   height: auto;
   padding: 0 50px;
   margin: 0 auto;
-  font-family: Helvetica, Arial, sans-serif;
-  color: $text-color;
+  font-family: cm;
+  color: $neutral-900;
+  text-align: justify;
 }
 
-.table {
-  width: 100%;
-  display: table;
-
-  .main {
-    display: table-cell;
-    width: $content-main-percentage;
-    padding-right: $space-4;
-  }
-
-  .side {
-    display: table-cell;
-    width: $content-side-percentage;
-    padding-left: $space-4;
-    text-align: right;
-  }
+h2 {
+  font-size: $font-size-xl;
+  line-height: $line-height-xl;
+  font-weight: bold;
 }
 
-.summary {
-  font-size: $font-size-small;
-
-  &:empty {
-    display: none
-  }
+h3 {
+  font-size: $font-size-3xl;
+  line-height: $line-height-3xl;
+  font-weight: bold;
 }
 
-.section-title {
-  font-size: $font-size-xlarge;
-  font-weight: normal;
-  margin: 0 0 $space-2 0;
+h4 {
+  font-size: $font-size-lg;
+  line-height: $line-height-lg;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  font-weight: bold;
+}
+
+hr {
+  flex-grow: 1;
+  height: 2px;
+  background-color: $neutral-700;
+  color: $neutral-700;
+  align-self: center;
+  margin: 0 0 0 $font-size-3xl;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: $font-size-xl 0 5px 0;
 }

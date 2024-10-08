@@ -1,0 +1,29 @@
+@use "sass:color";
+
+.publication-entry {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-areas:
+    "date name"
+    "date publisher"
+    "date summary";
+
+  font-size: $font-size-base;
+
+  .date {
+    text-align: left;
+    grid-area: date;
+  }
+
+  .name {
+    grid-area: name;
+  }
+
+  .publisher {
+    grid-area: publisher;
+  }
+
+  .summary {
+    grid-area: summary;
+  }
+}

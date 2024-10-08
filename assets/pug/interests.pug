@@ -1,7 +1,11 @@
 if helper.validArray(resume.interests)
-  div(class='interests margin-container-4 no-break')
-    p(class='section-title no-alone-1') Interests
-    div(class='container')
-      ul
-        each interest in resume.interests
-          li(class='article margin-text-2')=interest.name
+  div(class='margin-container-2')
+    div(class='section')
+      h3 Interests
+      hr
+    div(class='interests')
+      each interest in resume.interests
+        div(class='interest')
+          p(class='name')=interest.name + ': '
+          if helper.validArray(interest.keywords)
+            p(class='keywords')=interest.keywords.join(', ')
