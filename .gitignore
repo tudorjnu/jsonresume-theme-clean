@@ -4,5 +4,6 @@ node_modules/
 public/
 coverage/
 npm-debug.log
+resume.json
 
 
