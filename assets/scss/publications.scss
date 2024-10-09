@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 100px 1fr;
   grid-template-areas:
-    "date name"
+    "date title"
     "date publisher"
     "date summary";
 
@@ -15,8 +15,8 @@
     grid-area: date;
   }
 
-  .name {
-    grid-area: name;
+  .title {
+    grid-area: title;
   }
 
   .publisher {
@@ -25,5 +25,6 @@
 
   .summary {
     grid-area: summary;
+    margin-top: 0.5em;
   }
 }

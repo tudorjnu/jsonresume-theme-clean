@@ -30,7 +30,7 @@ const calcLocation = (location) => {
 };
 
 const calcDate = (date) => {
-  return date ? beautifyDate(date) : null;
+  return date ? beautifyDate(date) : "Present";
 };
 
 const calcDateRange = (start, end) => {

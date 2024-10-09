@@ -1,10 +1,15 @@
 div(class='header-container padding-bottom-container-2')
 
   div(class='main')
-    span(class='name')=resume.basics.name
-    span(class='label')=resume.basics.label
+    span(class='name text-5xl')=resume.basics.name
+    span(class='label text-3xl')=resume.basics.label
 
   ul(class='profiles')
+    if resume.basics.location
+      li(class='profile')
+        i(class='fas fa-map-marker-alt')
+        span=helper.calcLocation(resume.basics.location)
+
     if resume.basics.phone
       li(class='profile')
         i(class='fas fa-phone')

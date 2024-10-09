@@ -4,15 +4,15 @@
   display: grid;
   grid-template-columns: 100px 1fr auto;
   grid-template-areas:
-    "dates title institution"
-    "dates courses courses"
-    "dates highlights highlights";
+    "date title institution"
+    "date courses courses"
+    "date highlights highlights";
 
   font-size: $font-size-base;
 
-  .dates {
+  .date {
     text-align: left;
-    grid-area: dates;
+    grid-area: date;
   }
 
   .highlights {

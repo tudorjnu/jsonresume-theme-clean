@@ -6,7 +6,9 @@ if helper.validArray(resume.education)
     div(class='container')
       each edu in resume.education
         div(class='education-entry article margin-container-1 no-break')
-          span(class="dates")= helper.calcDateRange(edu.startDate, edu.endDate)
+          div(class="date")
+            div=helper.calcDate(edu.startDate) + " -"
+            div=helper.calcDate(edu.endDate)
           h4(class="title")= edu.studyType + " in " + edu.area
           span(class="institution")
             a(href=edu.url)= edu.institution
@@ -16,5 +18,7 @@ if helper.validArray(resume.education)
                 strong= "Courses: "
                 |
                 = edu.courses.join(', ')
-          div(class="highlights")
-            p=edu.highlights
+          if helper.validArray(edu.highlights)
+            ul(class='highlights margin-text-4 no-break')
+              each highlight in edu.highlights
+                li=highlight
