@@ -28,3 +28,9 @@ npm install
 
 gulp
 ```
+
+## Export
+
+```bash
+resume export -t . resume.pdf
+```
